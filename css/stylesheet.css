@@ -1,0 +1,81 @@
+/*The default margin has be set to 8px, we must set is to 0 in order to prevent clashes while programming*/
+html, body{ margin: 0;}
+
+/* This is the background image of the landing page*/
+.container_header_image{
+    background-image: url("../img/home_page.jpg");
+    height: 100vh;
+   /* width: 100%;*/
+    background-size: cover;
+}
+/*This is the black tint or over lining shadow of the landing page image*/
+.container_header_image::before{
+    content:"";
+    display: block;
+    position: absolute;
+    height: 100vh;
+    width: 100%; /* The tint extends from the left-side of the window to fill the space| percentage is preferable to viewportWidth*/
+    background: rgba(0,0,0,0.8);
+}
+/*The position of the text is set to relative in order to bring in to the fore-font of the page*/
+.headline_text{
+    color: deeppink;
+    position: relative;
+    height: 100vh;/* This needs to be relative to the landing page in order for the (display, flex-direction. justify-content and align-items) to work and the effects to be displayed properly */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headline_text h1{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+
+
+
+

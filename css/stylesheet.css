@@ -3,7 +3,7 @@ html, body{ margin: 0;}
 
 /* This is the background image of the landing page*/
 .container_header_image{
-    background-image: url("../img/home_page.jpg");
+    background-image: url("../img/unsplash_home.jpg");
     height: 100vh;
    /* width: 100%;*/
     background-size: cover;
@@ -15,11 +15,11 @@ html, body{ margin: 0;}
     position: absolute;
     height: 100vh;
     width: 100%; /* The tint extends from the left-side of the window to fill the space| percentage is preferable to viewportWidth*/
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.7);
 }
 /*The position of the text is set to relative in order to bring in to the fore-font of the page*/
 .headline_text{
-    color: deeppink;
+    color: white;
     position: relative;
     height: 100vh;/* This needs to be relative to the landing page in order for the (display, flex-direction. justify-content and align-items) to work and the effects to be displayed properly */
     margin: 0;
@@ -27,10 +27,30 @@ html, body{ margin: 0;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 54px;
+    text-shadow: 2px 3px 2px rosybrown;
 }
 
 
 
+#navigation_bar{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav_bar_right{
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
+}
+
+.nav_bar_right li a{
+    display: block;
+    color: deeppink;
+    position: relative;
+}
 
 
 

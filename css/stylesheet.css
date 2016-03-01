@@ -8,6 +8,7 @@ html, body{ margin: 0;}
    /* width: 100%;*/
     background-size: cover;
 }
+
 /*This is the black tint or over lining shadow of the landing page image*/
 .container_header_image::before{
     content:"";
@@ -35,23 +36,62 @@ html, body{ margin: 0;}
 
 
 #navigation_bar{
-    width: 100%;
     position: fixed;
     z-index: 10;
+  /*  border: dashed deeppink;*/ /* Placed to to determine the border of span */
+    top: 8px;
+    right: 16px;
 }
 
 .nav_bar_right{
     display: inline-flex;
-    width: 100%;
     padding: 0;
+    list-style-type: none;
+/*    border: dashed yellow;*/ /* Placed to to determine the border of span */
+
+
+}
+
+.nav_bar_right li{
+    text-align: right;
+ /*   border: dotted blue;*/ /* Placed to to determine the border of span */
 }
 
 .nav_bar_right li a{
     display: block;
-    color: deeppink;
+    color: navajowhite;
     position: relative;
+    padding-right: 2em;
+    text-decoration: none;
+    font-size: 32px;
+/*    border: dashed red;*/ /* Placed to to determine the border of span */
+    font-family: 'EB Garamond', serif;
+
+
 }
 
+.nav_bar_left{
+    position:fixed;
+    z-index: 10;
+    top: 8px;
+    left: 16px;
+   /* border: dashed deeppink;*/
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+
+}
+
+.nav_bar_left li a{
+    display: block;
+    color: navajowhite;
+    text-shadow: 2px 3px 2px white;
+    position: relative;
+    text-decoration: none;
+    font-size: 32px;
+    font-family:"Dancing Script", cursive;
+
+}
 
 
 
@@ -93,6 +133,7 @@ html, body{ margin: 0;}
 p{
     max-width: 600px;
     margin: 0 auto 20px;
+    font-family: 'EB Garamond', serif;
 }
 
 

@@ -48,8 +48,6 @@ html, body{ margin: 0;}
     padding: 0;
     list-style-type: none;
 /*    border: dashed yellow;*/ /* Placed to to determine the border of span */
-
-
 }
 
 .nav_bar_right li{
@@ -66,8 +64,6 @@ html, body{ margin: 0;}
     font-size: 32px;
 /*    border: dashed red;*/ /* Placed to to determine the border of span */
     font-family: 'EB Garamond', serif;
-
-
 }
 
 .nav_bar_left{
@@ -79,7 +75,6 @@ html, body{ margin: 0;}
     list-style-type: none;
     display: inline;
     padding: 0;
-
 }
 
 .nav_bar_left li a{
@@ -90,43 +85,15 @@ html, body{ margin: 0;}
     text-decoration: none;
     font-size: 32px;
     font-family:"Dancing Script", cursive;
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/*****************************************************/
 
 
 .headline_text h1{
     margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -137,6 +104,6 @@ p{
 }
 
 
-
+/******************************************************/
 
 

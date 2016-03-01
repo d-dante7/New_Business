@@ -66,6 +66,7 @@ html, body{ margin: 0;}
     font-family: 'EB Garamond', serif;
 }
 
+/* The code below show th "ul" and all the properties required to alter it's container*/
 .nav_bar_left{
     position:fixed;
     z-index: 10;
@@ -77,11 +78,12 @@ html, body{ margin: 0;}
     padding: 0;
 }
 
+/* The code below shows alters the list elements and the anchoring elements*/
 .nav_bar_left li a{
     display: block;
     color: navajowhite;
     text-shadow: 2px 3px 2px white;
-    position: relative;
+    position: relative; /* !!-- Test to see is this property is not required or can be altered --! CHECK LINE '61'*/
     text-decoration: none;
     font-size: 32px;
     font-family:"Dancing Script", cursive;
